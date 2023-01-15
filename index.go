@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/analysis/analyzer/custom"
-	"github.com/blevesearch/bleve/analysis/tokenizer/regexp"
-	"github.com/blevesearch/bleve/mapping"
+	"github.com/blevesearch/bleve/v2"
+	"github.com/blevesearch/bleve/v2/analysis/analyzer/custom"
+	"github.com/blevesearch/bleve/v2/analysis/tokenizer/regexp"
+	"github.com/blevesearch/bleve/v2/mapping"
 )
 
 const (
